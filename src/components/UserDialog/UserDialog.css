@@ -1,0 +1,156 @@
+.user-dialog-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.user-dialog-view-container {
+  width: 400px;
+  height: 250px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.user-dialog-table {
+  width: 100%;
+  height: 100%;
+}
+.user-dialog-avatar-cell {
+  text-align: center;
+  vertical-align: middle;
+  width: 120px;
+}
+.user-dialog-avatar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.user-dialog-avatar {
+  width: 56px !important;
+  height: 56px !important;
+  margin-bottom: 16px !important;
+}
+.user-dialog-label-cell {
+  font-weight: bold;
+  width: 80px;
+}
+
+.user-dialog-card-wrapper {
+  padding: 8px 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 360px;
+}
+
+.user-dialog-card-wrapper .details-table {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.user-dialog-card-wrapper .details-row {
+  display: flex;
+  gap: 8px;
+  align-items: baseline;
+}
+
+.legacy-user-card {
+  border-radius: 20px !important;
+  overflow: hidden !important;
+  display: flex !important;
+  flex-direction: column !important;
+  cursor: default !important;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+  background: #ffffff !important;
+  backdrop-filter: none !important;
+}
+.legacy-user-card-banner {
+  position: relative;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--banner-color, #eee);
+}
+.legacy-user-card-avatar {
+  width: 64px !important;
+  height: 64px !important;
+  font-size: 28px !important;
+  font-weight: 600 !important;
+  background: rgba(255, 255, 255, 0.55) !important;
+  color: #424242 !important;
+}
+.legacy-user-card-actions {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  gap: 4px;
+}
+.legacy-user-card-icon-btn {
+  background: rgba(255, 255, 255, 0.7) !important;
+  padding: 4px !important;
+}
+.legacy-user-card-icon-btn:hover {
+  background: rgba(255, 255, 255, 0.9) !important;
+}
+.legacy-user-card-details {
+  padding: 12px 16px;
+  display: flex;
+  flex-direction: column;
+}
+.legacy-details-table {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.legacy-details-row {
+  display: flex;
+  gap: 5px;
+  align-items: baseline;
+}
+.legacy-user-card-name {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.legacy-user-card-label {
+  font-size: 12px !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.54);
+  width: 60px;
+}
+.legacy-user-card-value {
+  font-size: 16px !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.legacy-save-btn.MuiButton-contained {
+  --btn-color: var(--banner-color, #1976d2);
+  background: var(--btn-color) !important;
+  color: #424242;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  padding: 6px 22px !important;
+  border-radius: 24px !important;
+  margin-top: 10px;
+  box-shadow: 0 2px 6px color-mix(in srgb, var(--btn-color) 60%, transparent) !important;
+  transition: background 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+}
+.legacy-save-btn.MuiButton-contained:hover {
+  background: color-mix(in srgb, var(--btn-color) 90%, black 10%) !important;
+  box-shadow: 0 4px 10px color-mix(in srgb, var(--btn-color) 55%, transparent) !important;
+  transform: translateY(-1px);
+}
+.legacy-save-btn.Mui-disabled {
+  background: #90caf9 !important;
+  color: #fff !important;
+  box-shadow: none !important;
+}

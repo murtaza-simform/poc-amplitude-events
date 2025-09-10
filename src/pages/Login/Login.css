@@ -1,0 +1,26 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('/src/assets/images/user-background.jpg') center/cover no-repeat fixed;
+    position: relative;
+}
+
+.login-paper {
+    position: relative;
+    z-index: 1;
+}
+
+.login-paper {
+    padding: 32px;
+    min-width: 300px;
+}
+
+.login-submit-btn {
+    margin-top: 16px !important;
+}
+
+.login-register-btn {
+    margin-top: 8px !important;
+}

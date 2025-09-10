@@ -1,0 +1,24 @@
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('/src/assets/images/user-background.jpg') center/cover
+    no-repeat fixed;
+  position: relative;
+}
+
+.register-paper {
+  position: relative;
+  z-index: 1;
+}
+.register-paper {
+  padding: 32px;
+  min-width: 300px;
+}
+.register-submit-btn {
+  margin-top: 16px !important;
+}
+.register-back-btn {
+  margin-top: 8px !important;
+}

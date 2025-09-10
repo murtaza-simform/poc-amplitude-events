@@ -1,0 +1,17 @@
+.navbar-appbar{
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.navbar-toolbar {
+  display: flex;
+}
+.navbar-title {
+  flex-grow: 1;
+}
+.navbar-userinfo {
+  margin-right: 16px;
+}
+.navbar-usertext {
+  white-space: nowrap;
+}

@@ -1,0 +1,75 @@
+.user-list-grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  align-items: center;
+}
+
+@media (min-width: 900px) {
+  .user-list-grid { gap: 20px; }
+}
+
+.user-card.user-card-simple {
+  display: flex !important;
+  align-items: center !important;
+  padding: 10px 14px !important;
+  border-radius: 40px !important;
+  cursor: pointer !important;
+  gap: 10px !important;
+  position: relative;
+  min-height: 60px;
+  min-width: 0;
+  transition: background-color 0.15s ease, box-shadow 0.15s ease;
+  box-sizing: border-box;
+}
+.user-card.user-card-simple:hover {
+  background: #fafafa !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08) !important;
+}
+
+.user-card-banner { display: none; }
+
+.user-card-avatar-simple {
+  width: 40px !important;
+  height: 40px !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  color: #424242 !important;
+  flex-shrink: 0;
+}
+
+.user-card-actions-simple {
+  margin-left: auto;
+  display: flex;
+  gap: 4px;
+}
+
+.user-card-icon-btn-simple {
+  padding: 4px !important;
+}
+
+.user-card-details { display: none; }
+
+.user-card-details .details-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-card-details .details-table td,
+.user-card-details .details-table th {
+  border-bottom: none;
+  padding: 4px;
+}
+
+.user-card-name-simple {
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 40%;
+}
+
+.user-card-label { display: none; }
+
+.user-card-value { display: none; }
